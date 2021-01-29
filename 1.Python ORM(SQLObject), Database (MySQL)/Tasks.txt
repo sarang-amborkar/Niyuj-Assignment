@@ -1,0 +1,27 @@
+__________________________________________________________________________
+Assignment/Tasks:
+--------------------------------------------------------------------------
+1. Design of Database Modules
+2. Database Migrations using ORM (SQLObject)
+3. Logging
+4. Exception Handling
+Example Assignment: Active Backlogs:
+There is a database with two tables relating to students at a school. Each student has a unique ID. There is a backlog table that maintains a record of active backlogs of each student.
+print the names of students who have at least one active backlog
+-------------------------------------------------------------------------
+Definition Of Done:
+-------------------------------------------------------------------------
+Design and documentation of Database Modules.
+Program should cover the migration of Python modules into MySQL Database.
+Program should include basic database operations like Add entries, Read entries, Delete entries and Update entries
+-------------------------------------------------------------------------
+Acceptance Criteria:
+-------------------------------------------------------------------------
+Python coding guidelines is followed,
+Handling of Exceptions in the code properly,
+Code should log messages properly,
+Create a Python Package,
+Comments should be included in the code,
+README with instructions,
+
+
