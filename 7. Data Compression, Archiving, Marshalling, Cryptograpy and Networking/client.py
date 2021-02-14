@@ -1,74 +1,48 @@
-"""
-Client that sends the file (uploads)
-"""
-import socket
-import tqdm
-import os
+# client.py
 
+import socket                   # Import socket module
 from cryptography.fernet import Fernet
 
-import argparse
+
+def decrypt():
+    fkey =  "yfe3iB66MOQThoGk1rQc6KKPEkTpjVJaWfvWMXnLjqo="
+    # key = fkey.read()
+    cipher = Fernet(fkey)
+
+    with open('encrypted_file','rb') as df:
+        encrypted_data = df.read()
+
+    decrypted_file = cipher.decrypt(encrypted_data)
+
+    with open('received_file.txt','wb') as df:
+        df.write(decrypted_file)
 
 
-SEPARATOR = "<SEPARATOR>"
-BUFFER_SIZE = 1024 * 4 #4KB
+def receive_file():
+    s = socket.socket()             # Create a socket object
+    host = socket.gethostname()     # Get local machine name
+    port = 60000                    # Reserve a port for your service.
 
-
-def encrypt_file(filename):
-    key = b''  # Use one of the methods to get a key (it must be the same when decrypting)
-    input_file = filename
-    output_file = 'test.encrypted'
-
-    with open(input_file, 'rb') as f:
-        data = f.read()  # Read the bytes of the input file
-
-    fernet = Fernet(key)
-    encrypted = fernet.encrypt(data)
-
-    with open(output_file, 'wb') as f:
-        f.write(encrypted)  # Write the encrypted bytes to the output file
-    return fernet
-
-
-def send_file(filename, host, port):
-    key = encrypt_file(filename)
-    # get the file size
-    file = 'test.encrypted'
-    filesize = os.path.getsize(file)
-    # create the client socket
-    s = socket.socket()
-    print(f"[+] Connecting to {host}:{port}")
     s.connect((host, port))
-    print("[+] Connected.")
+    s.send(b"Hello server!")
 
-    # send the filename and filesize
-    s.send(f"{file}{SEPARATOR}{filesize}".encode())
-
-    # start sending the file
-    progress = tqdm.tqdm(range(filesize), f"Sending {file}", unit="B", unit_scale=True, unit_divisor=1024)
-    with open(file, "rb") as f:
-        for _ in progress:
-            # read the bytes from the file
-            bytes_read = f.read(BUFFER_SIZE)
-            if not bytes_read:
-                # file transmitting is done
+    with open('encrypted_file', 'wb') as f:
+        print('file opened')
+        while True:
+            print('receiving data...')
+            data = s.recv(1024)
+            print('data=%s', (data))
+            if not data:
                 break
-            # we use sendall to assure transimission in 
-            # busy networks
-            s.sendall(bytes_read)
-            # update the progress bar
-            progress.update(len(bytes_read))
-    # close the socket
+            # write data to a file
+            f.write(data)
+
+    f.close()
+    print('Successfully get the file')
     s.close()
+    print('connection closed')
+
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Simple File Sender")
-    parser.add_argument("file", help="File name to send")
-    parser.add_argument("host", help="The host/IP address of the receiver")
-    parser.add_argument("-p", "--port", help="Port to use, default is 5001", default=5001)
-    args = parser.parse_args()
-    filename = args.file
-    host = args.host
-    port = args.port
-    send_file(filename, host, port)
-
+    receive_file()
+    decrypt()
