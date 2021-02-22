@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="47c94b68-3183-4d9c-b43d-2ec81c54cb1e" name="Default Changelist" comment="file handling new">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.Python ORM(SQLObject), Database (MySQL)/stu_backlog/New Text Document.txt" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1.Python ORM(SQLObject), Database (MySQL)/stu_backlog/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/1.Python ORM(SQLObject), Database (MySQL)/stu_backlog/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BinarySearchTree/.idea/BinarySearchTree.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BinarySearchTree/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BinarySearchTree/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BinarySearchTree/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BinarySearchTree/BinarySearchTree.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BredthFirstSearch/.idea/BredthFirstSearch.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Niyuj-Assignment.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BredthFirstSearch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BredthFirstSearch/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/BredthFirstSearch/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/DepthFirstSearch/.idea/DepthFirstSearch.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/DepthFirstSearch/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/DepthFirstSearch/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/DepthFirstSearch/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dictionary/.idea/Dictionary.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dictionary/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dictionary/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dictionary/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dijkstras_Algorithm/.idea/Dijkstras_Algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dijkstras_Algorithm/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dijkstras_Algorithm/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dijkstras_Algorithm/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Dijkstras_Algorithm/Dijkstra.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Heap/.idea/Heap.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Heap/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Heap/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Heap/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Heap/Heap.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Heap/Heap_Built_In.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/InsertionSort/.idea/InsertionSort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/InsertionSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/InsertionSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/InsertionSort/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/LinkedList/.idea/LinkedList.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/LinkedList/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/LinkedList/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/LinkedList/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/LinkedList/LinkedList.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/MergeSort/.idea/MergeSort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/MergeSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/MergeSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/MergeSort/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Queues/.idea/Queues.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Queues/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Queues/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Queues/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/SelectionSort/.idea/SelectionSort.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/SelectionSort/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/SelectionSort/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/SelectionSort/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Stacks/.idea/Stacks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Stacks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Stacks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/3.Problem Solving skills using Python/Stacks/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. file handling/Files.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/5. file handling/test.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/6.using C extensions in Python code/hello.py" beforeDir="false" afterPath="$PROJECT_DIR$/6.using C extensions in Python code/hello.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/Server/server.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/encrypted_file" beforeDir="false" afterPath="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/encrypted_file" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/test.txtencrypted" beforeDir="false" afterPath="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/test.txtencrypted" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1nk4U4Zfnje4q7Jv9uAfrhLQawk" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/3.Problem Solving skills using Python" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/3.Problem Solving skills using Python" />
+      <recent name="$PROJECT_DIR$/2.Unit testing (unittest or Pytest module)" />
+      <recent name="$PROJECT_DIR$/1.Python ORM(SQLObject), Database (MySQL)" />
+      <recent name="$PROJECT_DIR$/REST API" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking" />
+      <recent name="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/Server" />
+      <recent name="$PROJECT_DIR$/1.Python ORM(SQLObject), Database (MySQL)" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Niyuj-Assignment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1.Python ORM(SQLObject), Database (MySQL)/stu_backlog" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.Python ORM(SQLObject), Database (MySQL)/stu_backlog/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="client" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Niyuj-Assignment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/client.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="file_handling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Niyuj-Assignment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/5. file handling" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/5. file handling/file_handling.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="hello" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Niyuj-Assignment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/6.using C extensions in Python code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/6.using C extensions in Python code/hello.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="Niyuj-Assignment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="server" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Niyuj-Assignment" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/7. Data Compression, Archiving, Marshalling, Cryptograpy and Networking/server.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.file_handling" />
+        <item itemvalue="Python.hello" />
+        <item itemvalue="Python.client" />
+        <item itemvalue="Python.server" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="47c94b68-3183-4d9c-b43d-2ec81c54cb1e" name="Default Changelist" comment="" />
+      <created>1611920766969</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1611920766969</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first push">
+      <created>1611922420834</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611922420834</updated>
+    </task>
+    <task id="LOCAL-00002" summary="second push">
+      <created>1612983943032</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612983943033</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ADDED SOME MORE ASSIGNMENTS">
+      <created>1613063118299</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613063118299</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added assignment no. 7">
+      <created>1613325655768</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1613325655768</updated>
+    </task>
+    <task id="LOCAL-00005" summary="file handling new">
+      <created>1613410152699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1613410152700</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first push" />
+    <MESSAGE value="second push" />
+    <MESSAGE value="ADDED SOME MORE ASSIGNMENTS" />
+    <MESSAGE value="added assignment no. 7" />
+    <MESSAGE value="file handling new" />
+    <option name="LAST_COMMIT_MESSAGE" value="file handling new" />
+  </component>
+</project>

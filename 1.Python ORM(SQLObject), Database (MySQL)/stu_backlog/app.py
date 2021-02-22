@@ -1,27 +1,18 @@
 
 from flask import Flask,jsonify,request,g
 import sqlobject
-import MySQLdb
-from sqlobject.mysql import mysqlconnection
 from sqlobject.mysql import builder
-conn = builder()(user='root', password='password',
+conn = builder()(user='sarang', password='password',
                  host='localhost', db='sqlobject')
 
-db=_mysql.connect(host="localhost",user="joebob",
-                  passwd="moonpie",db="thangs")
-
 app = Flask(__name__)
-
 
 class Student(sqlobject.SQLObject):
     _connection = conn
     name = sqlobject.StringCol(length=255)
     backlog=sqlobject.IntCol(name=None)
     subjects = sqlobject.MultipleJoin('Subjects')
-    class sqlmeta:
-        table = "student"
 stu=Student.createTable(ifNotExists=True)
-
 
 class Subjects(sqlobject.SQLObject):
     _connection = conn
@@ -30,10 +21,7 @@ class Subjects(sqlobject.SQLObject):
     science=sqlobject.IntCol(name=None)
     english=sqlobject.IntCol(name=None)
     student = sqlobject.ForeignKey('Student')
-    class sqlmeta:
-        table = "subjects"
 sub=Subjects.createTable(ifNotExists=True)
-
 
 @app.route('/create_stu',methods=['POST'])
 def createstud():
@@ -41,7 +29,6 @@ def createstud():
     Student(name=request_data['name'],
             backlog=request_data['backlog'] )
     return 'student created'
-
 
 @app.route('/create_sub',methods=['POST'])
 def createsub():
@@ -52,7 +39,6 @@ def createsub():
              english=request_data['english'],
              studentID=request_data['studentID'])
     return 'subject created'
-
 
 @app.route('/get_stu', methods=['GET'])
 def fetch_user():
@@ -106,3 +92,4 @@ def get_stud():
 
 if __name__=="__main__":
     app.run(debug=True)
+
